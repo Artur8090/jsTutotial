@@ -5,4 +5,15 @@ alert(  "вам " + years);
 var isAdmin = confirm("вы - админ?");
 alert( isAdmin );
 if ( years < 20) { alert("вы не можете быть на этом сайте");
+} else   {
+    confirm("продолжить?");
+} 
+    
+
+var question = prompt("каково офицалное название JavaScript?")
+if(question == "EcmaScript") {
+   alert("да верно")
+} else {
+    alert("нет не правильно!")
 }
+ 
