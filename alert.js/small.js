@@ -1,14 +1,14 @@
 var a = 2;
 var x = 1 + (a *= 2)
 
-alert(x);
+//alert(x);
 
 function isInteger(num){
     return(num ^ 0) === num;
 }
-alert(isInteger(1))
-alert(isInteger(1.5))
-alert(isInteger(-0.5))
+//alert(isInteger(1))
+//alert(isInteger(1.5))
+//alert(isInteger(-0.5))
 var a = "right"
 var b = " wrong"
 var c = " maybe"
@@ -20,6 +20,5 @@ a ^ b === a ^ b
 c & d === c & d
 e | f === e | f
 
-alert(a + b)
-alert(c + d)
-alert(e + f)
+alert(null || 2 || undefined);
+alert(alert(1) || 2 || alert(3));
