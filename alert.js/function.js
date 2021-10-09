@@ -1,4 +1,4 @@
-
+//проверка возраста
 function checkAge(age) {
     if(age >= 18) {
         return true;
@@ -7,7 +7,7 @@ function checkAge(age) {
     
 }
 //alert(checkAge())
-
+//проверка менщего числа
 function min(a,b){
     if(a < b){
         return a;
@@ -19,8 +19,8 @@ function min(a,b){
 alert(min(5, 3));
 alert(min(0.6, 0.06));
 alert(min(-67, -0.67));
-*/
 
+// проверка степеньей
 function pow(x, n) {
     var result = x;
 
@@ -38,3 +38,14 @@ if(n <= 1) {
 } else {
     alert( pow( x, n) );
 } 
+*/
+function sumTo(num){
+    var sum = 0;
+    for(var i = 1; i < num; i++){
+        sum += i;
+    }
+        return sum;
+    
+
+}
+alert(sumTo(99));
