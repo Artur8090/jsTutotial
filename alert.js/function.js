@@ -49,3 +49,16 @@ function sumTo(num){
 
 }
 alert(sumTo(99));
+
+function fib(n) {
+    return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+}
+alert(fib(15));
+alert(fib(12));
+
+
+
+function g() {return 1;}
+alert(g)
+(function j() {return 1;})
+alert(j)
