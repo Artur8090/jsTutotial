@@ -1,13 +1,21 @@
 //возврощяет десятичную
 function getDecimal(num) {
+    var newString = "" + num ;
+    console.log("newString", newString);
+    var firstPose = newString.indexOf(".")
+    console.log("firstPose", firstPose);
+    if (firstPose == -1) {
+        return 0;
+    }
+    newString = newString.slice(firstPose);
 
-var newString = "" + num;
-var firstPose = newString.indexOf(".")
-if (firstPose == -1) return 0;
-newString = newString.slice(firstPose);
-return +newString;
-
+    return +newString;
+  
 }
-alert(getDecimal(12.5) );
 
-alert(getDecimal(34.1) );
+console.log(getDecimal(12.1));
+
+console.log(getDecimal(1.2));
+
+console.log(getDecimal(-1.2))
+
