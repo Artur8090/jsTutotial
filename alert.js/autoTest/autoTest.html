@@ -2,33 +2,30 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
-
-    <script>
-        mocha.setup("bdd");
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
-
-    <script>
-        var assert = chai.assert;
-    </script>
-
+    <meta charset="utf-8">
+    <script src="https://js.cx/test/libs.js"></script>
+    <script src=test.js></script>
 </head>
 
 <body>
-    <script>
-     
-        
-        
-    </script>
-    <script src="test.js"></script>
-    <div id="mocha"> </div>
-    <script>
-        mocha.run();
-    </script>
 
+    <script>
+
+        function pow(x, n) {
+            var result = 1;
+            if(n < 0) {
+                return NaN;
+            }
+            if(Math.round(n) != n) {
+                return NaN;
+            }
+            for (var i = 0; i < n; i++) {
+                result *= x;
+            }
+            return result;
+        }
+
+    </script>
 
 </body>
 
