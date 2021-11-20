@@ -5,3 +5,8 @@ describe("pow", function () {
     });
 
 });
+
+describe("NaN", function() {
+    it("ноль(0) в нулевой степеньи дает NaN")
+    assert.equal(isNaN(0,0), "дает NaN")
+})
