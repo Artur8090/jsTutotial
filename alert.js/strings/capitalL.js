@@ -1,8 +1,10 @@
-function ucFirst(string) {
-      if (!string) return string;
-    
-      return string[0].toUpperCase() + string.slice(1);
-    }
+function ucFirst(str) {
+  if(!str) return str;
+  return str[0].toUpperCase() + str.slice(1);
+}
 
-alert(ucFirst("банан"))
-alert(ucFirst("squid game"))
+console.log(ucFirst("банан"))
+
+console.log(ucFirst("squid game"))
+
+console.log(ucFirst())

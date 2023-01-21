@@ -1,4 +1,4 @@
-//Switch to IF
+/* //Switch to IF
 var browser = prompt("какой у вас браузер?");
 if(browser == "IE") {
     alert("наш сайт поддержывает IE!");
@@ -24,3 +24,4 @@ switch(a){
         alert("2,3");
         break;
 }
+*/

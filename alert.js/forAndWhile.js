@@ -1,3 +1,4 @@
+/*
 var i = 3;
 while (i) {
    alert( i-- )
@@ -18,3 +19,4 @@ for(var newI = 2; newI < 20; newI++){
     }
     alert(newI);
 }
+*/

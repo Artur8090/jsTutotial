@@ -1,4 +1,4 @@
-
+/*
 
 var years = prompt("сколько вам лет?");
 alert(  "вам " + years);
@@ -41,3 +41,4 @@ alert("процесс был отменен")
 } else {
     alert("не верный username")
 }
+*/

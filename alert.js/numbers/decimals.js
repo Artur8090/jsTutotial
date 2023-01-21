@@ -1,19 +1,19 @@
 //возврощяет десятичную
 function getDecimal(num) {
-    var newString = "" + num ;
-    console.log("newString", newString);
-    var firstPose = newString.indexOf(".")
+    var Str = "bc" + num;
+    console.log("Str", Str);
+    var firstPose = Str.indexOf(".")
     console.log("firstPose", firstPose);
     if (firstPose == -1) {
         return 0;
     }
-    newString = newString.slice(firstPose);
+    Str = Str.slice(firstPose);
 
-    return +newString;
+    return +Str;
   
 }
 
-console.log(getDecimal(12.1));
+console.log(getDecimal(1e6));
 
 console.log(getDecimal(1.2));
 

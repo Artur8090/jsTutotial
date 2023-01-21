@@ -1,0 +1,43 @@
+ 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
+
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+
+    <script>
+        mocha.setup("bdd");
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+
+    <script>
+        var assert = chai.assert;
+    </script>
+
+</head>
+
+<body>
+    <script>
+
+     function pow(x, n) {
+      var result = 1;
+      for (var i = 0; i < n; i++) {
+        result *= x;
+      }
+      return result;
+    }
+    </script>
+    <script src="test.js"></script>
+    <div id="mocha"> </div>
+    <script>
+        mocha.run();
+    </script>
+
+
+</body>
+
+</html>
+

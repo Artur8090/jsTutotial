@@ -2,12 +2,15 @@
 var max = 100;
 
 
-
-alert(Math.random()* max)
+console.log("интервал (0 - max)", Math.random() * max)
 //задание 2
-var min = 15, Max = 20;
 
-alert(Math.random()* (Max - min));
+var min = 15;
+var Max = 20;
+
+console.log("интервал(min,max)", min + Math.random() * (Max - min))
+
+
 
 //задание 3
 function randomInteger(min1, max1) {
@@ -15,4 +18,5 @@ function randomInteger(min1, max1) {
     num = Math.round(num);
     return num;
 }
-alert(randomInteger(1,3));
+
+console.log("функция randomInteger(min, max)", randomInteger(10,20))

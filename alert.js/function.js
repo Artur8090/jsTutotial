@@ -15,7 +15,7 @@ function min(a,b){
         return b;
     }
 }
-/*
+
 alert(min(5, 3));
 alert(min(0.6, 0.06));
 alert(min(-67, -0.67));
@@ -38,7 +38,7 @@ if(n <= 1) {
 } else {
     alert( pow( x, n) );
 } 
-*/
+
 function sumTo(num){
     var sum = 0;
     for(var i = 1; i < num; i++){
